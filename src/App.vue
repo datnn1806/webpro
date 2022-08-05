@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <p>nguyen thanh dat</p>
-    <Menu></Menu>
-    
+    <HelloDat/>
+    <Menu/>
   </div>
 </template>
 
 <script>
+import HelloDat from "./components/HelloDat.vue";
+import Menu from "./components/Menu.vue";
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HelloDat,
+    Menu
+}
 }
 </script>
 
